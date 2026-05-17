@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520" role="img" aria-label="Students learning online">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e9f2ff"/>
+      <stop offset="100%" stop-color="#cfe3ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" rx="28" fill="url(#bg)"/>
+  <circle cx="640" cy="120" r="56" fill="#9ac1ff" opacity=".6"/>
+  <circle cx="150" cy="410" r="74" fill="#b7d2ff" opacity=".55"/>
+  <rect x="170" y="100" width="460" height="290" rx="20" fill="#fff" stroke="#7aa9f8" stroke-width="4"/>
+  <rect x="210" y="140" width="240" height="18" rx="9" fill="#d8e7ff"/>
+  <rect x="210" y="175" width="360" height="14" rx="7" fill="#e6f0ff"/>
+  <rect x="210" y="200" width="320" height="14" rx="7" fill="#e6f0ff"/>
+  <rect x="210" y="225" width="340" height="14" rx="7" fill="#e6f0ff"/>
+  <rect x="210" y="268" width="120" height="42" rx="10" fill="#2d8cff"/>
+  <rect x="348" y="268" width="120" height="42" rx="10" fill="#7baeff"/>
+  <circle cx="600" cy="305" r="42" fill="#2d8cff"/>
+  <path d="M583 304l12 12 22-25" stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
