@@ -1,0 +1,42 @@
+:root {
+  --pc-primary: #134074;
+  --pc-accent: #2d8cff;
+  --pc-light: #f5f8ff;
+}
+
+body {
+  font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+  color: #1f2937;
+}
+
+.navbar {
+  background: linear-gradient(90deg, var(--pc-primary), #1b4f8f) !important;
+}
+
+.hero {
+  background: radial-gradient(circle at top right, #e8f1ff 0%, #f7faff 45%, #ffffff 100%);
+}
+
+.section-title {
+  color: var(--pc-primary);
+  font-weight: 700;
+}
+
+.program-card {
+  border: 1px solid #dbe7ff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.program-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(19, 64, 116, 0.12);
+}
+
+.badge-soft {
+  background: #e8f1ff;
+  color: var(--pc-primary);
+}
+
+footer {
+  background: #0f2744;
+}
