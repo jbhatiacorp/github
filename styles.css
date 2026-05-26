@@ -40,3 +40,15 @@ body {
 footer {
   background: #0f2744;
 }
+
+.section-visual {
+  width: 100%;
+  border: 1px solid #d9e7ff;
+}
+
+@media (min-width: 992px) {
+  .section-visual {
+    max-height: 260px;
+    object-fit: cover;
+  }
+}
