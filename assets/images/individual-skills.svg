@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Individual skill building illustration">
+  <rect width="900" height="300" rx="24" fill="#f3f8ff"/>
+  <circle cx="190" cy="150" r="88" fill="#d9e9ff"/>
+  <circle cx="190" cy="130" r="34" fill="#2d8cff"/>
+  <rect x="145" y="172" width="90" height="52" rx="18" fill="#88b3ff"/>
+  <rect x="320" y="92" width="470" height="36" rx="12" fill="#d6e7ff"/>
+  <rect x="320" y="140" width="400" height="16" rx="8" fill="#e7f1ff"/>
+  <rect x="320" y="168" width="350" height="16" rx="8" fill="#e7f1ff"/>
+  <rect x="320" y="202" width="180" height="42" rx="12" fill="#2d8cff"/>
+</svg>

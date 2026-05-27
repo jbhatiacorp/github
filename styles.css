@@ -1,0 +1,91 @@
+:root {
+  --pc-primary: #0d7a57;
+  --pc-accent: #0bb45f;
+  --pc-light: #f5f8ff;
+}
+
+body {
+  font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+  color: #1f2937;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #083b2c, var(--pc-primary)) !important;
+  box-shadow: 0 6px 24px rgba(8, 59, 44, 0.25);
+}
+
+.hero {
+  background: radial-gradient(circle at top right, #dcfff0 0%, #eefcf5 45%, #ffffff 100%);
+}
+
+.section-title {
+  color: #0a5f44;
+  font-weight: 800;
+}
+
+.program-card {
+  border: 1px solid #cbeedc;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.program-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(11, 120, 84, 0.16);
+}
+
+.badge-soft {
+  background: #e8f1ff;
+  color: var(--pc-primary);
+}
+
+footer {
+  background: linear-gradient(90deg, #083b2c, var(--pc-primary));
+}
+
+footer a {
+  color: #dbffee !important;
+}
+
+footer a:hover {
+  color: #ffffff !important;
+}
+
+.section-visual {
+  width: 100%;
+  border: 1px solid #d9e7ff;
+  object-position: center;
+}
+
+@media (min-width: 992px) {
+  .section-visual {
+    max-height: 260px;
+    object-fit: cover;
+  }
+}
+
+.hero img {
+  min-height: 320px;
+  object-fit: cover;
+}
+
+
+.brand-logo {
+  height: 46px;
+  width: auto;
+  display: block;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 4px 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.16);
+}
+
+
+.btn-primary {
+  background-color: var(--pc-accent);
+  border-color: var(--pc-accent);
+}
+
+.btn-primary:hover {
+  background-color: #099952;
+  border-color: #099952;
+}
